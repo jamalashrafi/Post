@@ -1,0 +1,22 @@
+.headerContainer {
+    background-color:$color-header-primary;
+    padding: 1rem;
+    color: $color-header-text;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    & label {
+        font-size: 1.4rem;
+        margin-right: 35rem;
+    }
+
+    & button {
+        padding: 5px 10px;
+        color: $color-primary-white;
+        background: transparent;
+        border: none;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+}

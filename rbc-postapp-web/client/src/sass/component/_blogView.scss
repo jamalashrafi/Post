@@ -1,0 +1,24 @@
+.blogViewContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__blogPost {
+    //flex-shrink: 1;
+    border: 1px solid #2e2e2e;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0 10rem 2rem 10rem;
+    min-width: 200px;
+
+    & div {
+      font-size: 1rem;
+      margin-top: 1rem;
+      line-height: 1;
+    }
+  }
+
+  &__blogPost:first-child {
+    margin-top: 2rem;
+  }
+}
